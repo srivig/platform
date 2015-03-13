@@ -167,6 +167,17 @@ form_attributes:
     form_group_id: 1
   -
     id: 11
+    label: "Status"
+    key: "missing_status"
+    type: "varchar"
+    input: "select"
+    required: 0
+    options: '["information_sought","is_note_author","believed_alive","believed_missing","believed_dead"]'
+    priority: 5
+    cardinality: 0
+    form_group_id: 1
+  -
+    id: 12
     label: "Links"
     key: "links"
     type: "varchar"
@@ -176,7 +187,7 @@ form_attributes:
     cardinality: 0
     form_group_id: 1
   -
-    id: 12
+    id: 13
     label: "Second Point"
     key: "second_point"
     type: "point"
