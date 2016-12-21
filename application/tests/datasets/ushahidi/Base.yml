@@ -903,15 +903,12 @@ sets:
     name: Admin only search
     search: 1
     filter: '{"q":"junk"}'
-<<<<<<< HEAD
-    visible_to: '["admin"]'
+    role: '["admin"]'
   -
     id: 7
     name: Test stage completion requirement on bulk updates
     search: 0
-=======
-    role: '["admin"]'
->>>>>>> develop
+
 posts_sets:
   -
     set_id: 1
